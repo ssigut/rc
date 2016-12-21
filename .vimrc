@@ -21,7 +21,7 @@ execute pathogen#infect()
 " TagBar tuning
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <F9> :TagbarOpen fj<CR>
-let g:tagbar_ctags_bin='/home/stepan/Downloads/ctags-5.8/ctags'
+" let g:tagbar_ctags_bin='...'
 
 " YouCompleteMe tuning
 let g:ycm_autoclose_preview_window_after_completion=1
@@ -36,7 +36,6 @@ filetype plugin on
 autocmd FileType python map <buffer> <leader>c :call Flake8()<CR>
 
 " other settings
-set paste
 set encoding=utf-8
 set showmatch
 
