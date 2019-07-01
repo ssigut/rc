@@ -43,11 +43,11 @@ set encoding=utf-8
 set showmatch
 
 " custom shortcuts
-xnoremap <leader>s( xi()<Esc>P
-xnoremap <leader>s' xi''<Esc>P
-xnoremap <leader>s" xi""<Esc>P
-xnoremap <leader>s{ xi{}<Esc>P
-xnoremap <leader>s[ xi[]<Esc>P
+xnoremap <leader>s( xa()<Esc>P
+xnoremap <leader>s' xa''<Esc>P
+xnoremap <leader>s" xa""<Esc>P
+xnoremap <leader>s{ xa{}<Esc>P
+xnoremap <leader>s[ xa[]<Esc>P
 
 " set backspace and arrows to behave as you would expect on modern system
 set backspace=2
