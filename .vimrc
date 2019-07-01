@@ -35,9 +35,19 @@ set ttimeoutlen=50
 filetype plugin on
 autocmd FileType python map <buffer> <leader>c :call Flake8()<CR>
 
+" increase yank line limit to 1000 lines and 1000kB
+set viminfo='20,<1000,s1000
+
 " other settings
 set encoding=utf-8
 set showmatch
+
+" custom shortcuts
+xnoremap <leader>s( xi()<Esc>P
+xnoremap <leader>s' xi''<Esc>P
+xnoremap <leader>s" xi""<Esc>P
+xnoremap <leader>s{ xi{}<Esc>P
+xnoremap <leader>s[ xi[]<Esc>P
 
 " set backspace and arrows to behave as you would expect on modern system
 set backspace=2
